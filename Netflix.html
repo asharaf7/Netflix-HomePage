@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d7ffd399c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionNetflixHome">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="shadow bg-container">
+                        <img src="https://res.cloudinary.com/dhsbfvjsl/image/upload/v1660748746/th_6_ttpckh.jpg" class="netflix-logo-image" />
+                        <button class="english-button">English</button>
+                        <button class="signin-button" onclick="display('sectionSignin')">sign in</button>
+
+
+                        <div class="heading-container">
+                            <h1 class="home-heading">Unlimited movies,TV Shows and more,</h1>
+                            <p class="paragraph">Watch anyWhere. Cancel anytime.</p>
+                            <p class="paragraph">Ready to watch? Enter your email to create or restart your membership</p>
+                        </div>
+
+                        <div class="container-fluid">
+                            <div class="email-container">
+                                <p class="email-description">Email address</p>
+                                <button class="getstart-button" onclick="display('sectionChoosePlan')">
+                                    Get Started
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionChoosePlan">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="plans-bg-container">
+                        <img src="https://res.cloudinary.com/dhsbfvjsl/image/upload/v1660748746/th_6_ttpckh.jpg" class="plans-image" />
+                        <button class="signin-button" onclick="display('sectionNetflixHome')">Sign out</button>
+                        <hr>
+
+                        <div class="d-flex flex-column justify-content-center text-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-check-circle tick-mark" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                            </svg>
+                            <p class="steps">step 2 of 3</p>
+                            <h1 class="plans-heading">Choose your plan.</h1>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 single-tick-mark" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                            <h1 class="ticks-heading">No commitments, cancel anytime.</h1>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 single-tick-mark" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                            <h1 class="ticks-heading">Everything on Netflix for one low price.</h1>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 single-tick-mark" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                            <h1 class="ticks-heading">No ads and no extra fees. Ever.</h1>
+                        </div>
+
+                        <div class="button-center-container">
+                            <button class="next-button" onclick="display('sectionPrices')">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionPrices">
+        <div class="plans-bg-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <img src="https://res.cloudinary.com/dhsbfvjsl/image/upload/v1660748746/th_6_ttpckh.jpg" class="plans-image" />
+                        <button class="signin-button" onclick="display('sectionNetflixHome')">Sign out</button>
+                        <hr>
+
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <p class="chooseplan-para">Step 1 of 3</p>
+                            <h1 class="choose-plan-heading">Choose the plan that's right for you</h1>
+
+                            <div class="d-flex flex-row">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 plan-single-tick-mark" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                                <h1 class="plan-ticks-heading">Watch all you want. Ad-free</h1>
+                            </div>
+
+                            <div class="d-flex flex-row">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 plan-single-tick-mark" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                                <h1 class="plan-ticks-heading">Recommendations just for you.</h1>
+                            </div>
+
+                            <div class="d-flex flex-row">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-check2 plan-single-tick-mark" viewBox="0 0 16 16">
+                                    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                                </svg>
+                                <h1 class="plan-ticks-heading">Change all you want. Ad-free</h1>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <div class="col-3 col-md-3 col-lg-3 pt-3">
+                                <div class="red-box-container">
+                                    <p class="red-box-para">Mobile</p>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3 pt-3">
+                                <div class="red-box-container">
+                                    <p class="red-box-para">Basic</p>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3 pt-3">
+                                <div class="red-box-container">
+                                    <p class="red-box-para">Standard</p>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3 pt-3">
+                                <div class="red-box-container">
+                                    <p class="red-box-para">Premium</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="prices-para mt-3 mb-3">Monthly price</p>
+
+                        <div class="d-flex flex-row">
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">$ 149</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">$ 199</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">$ 199</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">$ 199</p>
+                            </div>
+                        </div>
+
+                        <hr class="hr-line" />
+                        <p class="prices-para mt-3 mb-3">Video Quality</p>
+                        <div class="d-flex flex-row">
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">Good</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">Good</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">Better</p>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-lg-3">
+                                <p class="prices-para pr-3">Best</p>
+                            </div>
+                        </div>
+                        <hr class="hr-line" />
+
+                        <p class="prices-para mt-3 mb-3">Resolution</p>
+                        <div class="d-flex flex-row">
+                            <div class="col-3">
+                                <p class="prices-para pr-3">480P</p>
+                            </div>
+
+                            <div class="col-3">
+                                <p class="prices-para pr-3">480P</p>
+                            </div>
+
+                            <div class="col-3">
+                                <p class="prices-para pr-3">1080P</p>
+                            </div>
+
+                            <div class="col-3">
+                                <p class="prices-para pr-3">4K+HDR</p>
+                            </div>
+                        </div>
+                        <hr class="hr-line" />
+                        <p class="prices-para mt-3 mb-3">Devices you can use to watch</p>
+                    </div>
+
+
+
+                    <div class="col-3 pt-3 text-center">
+                        <i class="fa-solid fa-mobile-screen phone-symbol"></i>
+                        <p class="prices-para pt-2">Phone</p>
+                    </div>
+
+                    <div class="col-3 pt-3 text-center">
+                        <i class="fa-solid fa-tablet-button phone-symbol"></i>
+                        <p class="prices-para pt-2">Tablet</p>
+                    </div>
+
+                    <div class="col-3 pt-3 text-center">
+                        <i class="fa-solid fa-computer phone-symbol"></i>
+                        <p class="prices-para pt-2">computer</p>
+                    </div>
+
+                    <div class="col-3 pt-3 text-center">
+                        <i class="fa-solid fa-tv phone-symbol"></i>
+                        <p class="prices-para pt-2">TV</p>
+                    </div>
+
+                    <p class="prices-para-bio">HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability subject to your internet service and device capabilities. Not all content is available in all resolutions. See our <a href="">Terms of Use</a> for more details.<br /></p>
+                    <p class="prices-para-bio">Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard, and 1 with Basic and Mobile.</p>
+
+                    <div class="col-12 text-center mt-5">
+                        <div class="button-center-container">
+                            <button class="button-next">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionSignin">
+        <div class="sign-in-page-bg-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-arrow-left left-arrow" onclick="display('sectionNetflixHome')" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                        </svg>
+                        <img src="https://res.cloudinary.com/dhsbfvjsl/image/upload/v1660747055/th_3_pzdscy.jpg" class="netflix-signin-image " />
+                    </div>
+                    <h1 class="sign-heading">Sign in</h1>
+
+                    <div class="col-12">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="sign-card-container text-center margin-above">
+                                <h1 class="signin-box-heading">Email or phone number</h1>
+                            </div>
+
+                            <div class="sign-card-container text-center">
+                                <h1 class="signin-box-heading">Password</h1>
+                            </div>
+
+                            <button class="sign-in-button-login">Sign in</button>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="45" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg>
+                    <p class="signin-box-heading">Remember me</p>
+                </div>
+                <p class="footer-sign-in pt-3">New to Netflix ?<span class="signup-footer-page"> Sign up now</span></p>
+                <p class="footer-bio pt-5">This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href=""> Learn More</a></p>
+
+                <hr class="horizontal-line" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

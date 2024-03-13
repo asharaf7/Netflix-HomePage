@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #F1E9E9;
+    height: 100vh;
+}
+
+.netflix-logo-image {
+    height: 60px;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.english-button {
+    background-color: white;
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    border-width: 0px;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 200px;
+}
+
+.signin-button {
+    background-color: white;
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    border-width: 0px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+}
+
+.heading-container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.home-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: black;
+}
+
+.email-container {
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.email-description {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.getstart-button {
+    font-family: "Roboto";
+    font-size: 17px;
+    border-width: 0px;
+    height: 35px;
+    width: 130px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
+
+.plans-bg-container {
+    background-color: #F1E9E9;
+    height: 100vh;
+}
+
+.plans-image {
+    height: 60px;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.tick-mark {
+    color: red;
+}
+
+.text-middle {
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.steps {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: black;
+    padding-top: 20px;
+}
+
+.plans-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.ticks-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.single-tick-mark {
+    color: red;
+    padding-left: 10px;
+}
+
+.button-center-container {
+    text-align: center;
+}
+
+.next-button {
+    color: white;
+    background-color: red;
+    border-width: 0;
+    height: 50px;
+    width: 300px;
+    font-size: 28px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.plans-bg-container {
+    background-color: #F1E9E9;
+    height: 140vh;
+}
+
+.plans-image {
+    height: 60px;
+    width: 130px;
+    border-radius: 8px;
+}
+
+.signout-buttom {
+    text-align: right;
+    background-color: white;
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    border-width: 0px;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 270px;
+}
+
+.chooseplan-para {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: black;
+    padding-top: 20px;
+}
+
+.choose-plan-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.plan-single-tick-mark {
+    color: red;
+    padding-left: 10px;
+}
+
+.plan-ticks-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.red-box-container {
+    background-color: red;
+    height: 60px;
+    width: 80px;
+}
+
+.red-box-para {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.features-para {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.hr-line {
+    background-color: black;
+}
+
+.prices-para {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.phone-symbol {
+    font-size: 38px;
+    color: #df3229
+}
+
+.prices-para-bio {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: black;
+}
+
+.button-center-container {
+    text-align: center;
+}
+
+.button-next {
+    color: white;
+    background-color: red;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    border-width: 0px;
+    margin-left: 12px;
+}
+
+.sign-in-page-bg-container {
+    background-color: black;
+    height: 100vh;
+}
+
+.left-arrow {
+    color: white;
+}
+
+.netflix-signin-image {
+    height: 70px;
+    width: 130px;
+}
+
+.container-down {
+    margin-bottom: 200px;
+}
+
+.sign-card-container {
+    background-color: #696969;
+    border-radius: 10px;
+    width: 500px;
+    height: 55px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.margin-above {
+    margin-top: 200px;
+}
+
+.sign-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.signin-box-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+.sign-in-button-login {
+    font-family: "Roboto";
+    color: white;
+    background-color: red;
+    height: 55px;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.remember-arrow {
+    padding-top: 20px;
+}
+
+.signin-box-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.footer-sign-in {
+    color: #696969;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup-footer-page {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-bio {
+    color: #696969;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.horizontal-line {
+    padding-top: 20px;
+    color: white;
+}
